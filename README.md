@@ -6,7 +6,8 @@ ImageJ macro scripts for analyzing fluorescent microscopy images: segmenting cel
 * These scripts work on 2D multichannel fluorescent images. They require a cell soma/cell marker channel (you could also use DAPI) and a fluorescent marker of innervation
     * Theoretically it could be brightfield, but it was made with fluorescence in mind.
 
-# Macros/Scripts in repo (all are ImageJ macros written in the ImageJ macro language)
+# Macros/Code in this repo
+### All are .ijm files written in the ImageJ macro programming language. They can be dragged and dropped into Fiji or installed using the Plugins > Macros > Install... menu.
 ### Manual_cell_segmentation.ijm
 * Performs user-assisted segmentation of cells using a magic wand tool
 ### Automatic_cell_segmentation.ijm
