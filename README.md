@@ -11,6 +11,9 @@ ImageJ macro scripts for analyzing fluorescent microscopy images: segmenting cel
 * Performs user-assisted segmentation of cells using a magic wand tool
 ### Automatic_cell_segmentation.ijm
 * Performs automatic segmentation of cells, specifically made with tiled images with uneven illumination in mind
+### ROI_manual_remover.ijm
+* Opens images and their associated ROIs from automatic or manual methods and allows the user to remove (or add, technically) ROIs
+* Useful with the automatic method to correct for any inaccurate segmentation
 ### Quad_basket_quant.ijm
 * Divides cell ROIs generated from previous two macros into quadrants
 * Removes the center (to prevent a single bouton from being counted in all quadrants)
